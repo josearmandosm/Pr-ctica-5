@@ -1,6 +1,6 @@
-lista14 = ['hola', 'como', 'estas']
+lista15 = ['abc', 'def', 'ghi']
 
-# Contar la longitud de cada palabra usando map y lambda
-longitudes = list(map(lambda palabra: len(palabra), lista14))
+# Revertir cada palabra usando map y lambda
+revertidas = list(map(lambda palabra: palabra[::-1], lista15))
 
-print(longitudes)
+print(revertidas)
